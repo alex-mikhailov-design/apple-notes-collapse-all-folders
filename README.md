@@ -46,7 +46,7 @@ The algorithm is simple:
 6. Save the shortcut.
 
 
-#### Tip: Add as a Desktop Widget
+#### *Tip: Add a Desktop Widget*
 For quick one-click access, you can add the shortcut as a widget on your macOS desktop:
 1. Right-click anywhere on your desktop.
 2. Click "Edit Widgets".
