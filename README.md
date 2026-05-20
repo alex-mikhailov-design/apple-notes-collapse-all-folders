@@ -1,12 +1,12 @@
 # Collapse All Folders in Apple Notes
 
 ## Intro
-macOS Tahoe has a bug where Apple Notes expands every folder and subfolder in the sidebar on every launch. Apple hasn't fixed it as of macOS 26.5 (May 2026). I have not been able to find a ready-to-use solution. So I made this Apple Shortcut, that collapses all folders back in one click.
-
-Some of the Apple Community threads confirming the bug:
+macOS Tahoe has a bug where Apple Notes expands every folder and subfolder in the sidebar on every launch. Apple hasn't fixed it as of macOS 26.5 (May 2026). Some of the Apple Community threads about the bug:
 - [Apple Notes expands all folders on launch](https://discussions.apple.com/thread/256216467)
 - [Notes App Folders Always Expanded on macOS Tahoe 26.0.1](https://discussions.apple.com/thread/256165172)
 - [macOS 26: On launch, Apple Notes opens every single folder](https://discussions.apple.com/thread/256154409)
+
+I have not been able to find a ready-to-use solution. So I made this Apple Shortcut, that collapses all folders back in one click. Shortcut works both with iCloud notes and On My Mac notes.
 
 ## Preview
 Placeholder.
@@ -26,26 +26,25 @@ The algorithm is simple:
 ## How to Install
 
 #### Important
-1. Before running, go to **System Settings > Privacy & Security > Accessibility** and enable **Script Editor** and **Shortcuts**. The script simulates keyboard input, so macOS requires these permissions.
-2. The Notes sidebar must be visible when you run the Shortcut. If it's hidden, toggle it with **"Option ⌥ + Command ⌘ + S"** keyboard shortcut or through the menu **"View > Show Folders"**.
+1. Before running, go to **"System Settings > Privacy & Security > Accessibility"** and enable **"Shortcuts"**. The script simulates keyboard input, so macOS requires this permissions.
+2. The Notes app must be rinning, and the sidebar must be visible when you run the Shortcut. If it's hidden, toggle it with **"Option ⌥ + Command ⌘ + S"** keyboard shortcut or through the menu **"View > Show Folders"**.
 
 #### Option 1 - Apple Shortcuts File
 1. TBD
 
-#### Option 2 - Apple Shortcuts Link
-1. TBD
-
-#### Option 3 - Manually
+#### Option 2 - Manually
 1. TBD
 
 
 ## Shortcut Configuration
 
-The Shortcut has a **Text** block at the top with two comma-separated numbers, e.g. `5, 10`.
+The Shortcut has a **Text** block at the top with two comma-separated numbers, e.g. `2, 10`.
 
-The **first number** is how many folders to skip at the top of the sidebar (default folders like All Notes and Smart Folders). Open Notes, count them, and set this number.
+The **first number** in the Text block is a total number of non-collapsible folders to skip (2 by default), starting from the top most “All Notes” or “All iCloud” folder. In case you have smart folders or any other system folders on top of the list.
 
-The **second number** is how many folders to walk through and collapse. Set this to your total number of folders and subfolders.
+The **second number** in the Text block is a total number of folders you want to collapse (10 by default). Smart folders and folders with no sub-folders still count towards the total number.
+
+Screenshot placeholder
 
 ## AppleScript
 ```applescript
