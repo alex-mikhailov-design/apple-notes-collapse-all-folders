@@ -103,5 +103,8 @@ on run {input, parameters}
 end run
 ```
 
+## License
+CC BY-NC 4.0
+
 ## Disclaimer
 This script is provided as-is, without warranty of any kind. Use it at your own risk. The sidebar UI element path was tested on macOS Tahoe 26.5 and may break if Apple changes the Notes app structure in a future update.
