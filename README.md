@@ -65,7 +65,7 @@ The Shortcut has a **Text** block at the top with two comma-separated numbers, e
 
 The **first number** in the Text block is a total number of non-collapsible folders to skip, starting from the topmost “All Notes” or “All iCloud” folder. "All Notes" (or "All iCloud") and "Notes" are always there, so `2` is the default number. Increase this number if you have smart folders or other folders above the ones you want to collapse.
 
-The **second number** in the Text block is a total number of folders you want to collapse (10 by default). Smart folders and folders with no sub-folders still count towards the total number.
+The **second number** in the Text block is a total number of folders you want to collapse (`10` by default). Smart folders and folders with no sub-folders still count towards the total number.
 
 <img src="assets/shortcut.png" width="100%" alt="Shortcut Configuration">
 
