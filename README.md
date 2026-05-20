@@ -93,7 +93,7 @@ on run {input, parameters}
 	set skipFoldersCount to (item 1 of inputValues) as integer
 	set collapseFoldersCount to (item 2 of inputValues) as integer
 	
-	-- Focus on Notes app
+	-- Focus on the Notes app
 	tell application "System Events"
 		tell process "Notes"
 			set frontmost to true
