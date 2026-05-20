@@ -8,10 +8,10 @@ macOS Tahoe has a bug where Apple Notes expands every folder and subfolder in th
 
 I have not been able to find a ready-to-use solution. So I made this Apple Shortcut, that uses AppleScript to collapse all folders back in one click. This shortcut works both with iCloud notes and On My Mac notes.
 
-**Note:** This shortcut only works on macOS. It relies on AppleScript and System Events, which are not available on iOS or iPadOS.
+> **Note:** This shortcut only works on macOS. It relies on AppleScript and System Events, which are not available on iOS or iPadOS.
 
 ## Preview
-Placeholder.
+[Demo](demo/demo.gif)
 
 ## How It Works
 The AppleScript in the shortcut uses System Events to simulate **Option ⌥ + Left Arrow ◀** keyboard shortcut in the Apple Notes sidebar to collapse folder and all its subfolders and other keyboard shortcuts for navigation within the folders list.
@@ -45,18 +45,17 @@ The algorithm is simple:
 5. Add a **Run AppleScript** action and paste the code from the [AppleScript](#applescript) section below.
 6. Save the shortcut.
 
-
-#### *Tip: Add a Desktop Widget*
-For quick one-click access, you can add the shortcut as a widget on your macOS desktop:
-1. Right-click anywhere on your desktop.
-2. Click "Edit Widgets".
-3. In the widget gallery, search for "Shortcuts" in the search bar or scroll down to find it in the list.
-4. Find the Shortcuts widget and drag it onto your desktop (the small size works best for a single shortcut).
-5. Once placed on the desktop, right-click the widget and choose "Edit "Shortcuts"".
-6. Select "Collapse All Folders in Notes" from the list.
-7. Click "Done".
-
-You can now run the shortcut directly from your desktop by clicking the widget.
+> **Tip: Add a Desktop Widget**
+> For quick one-click access, you can add the shortcut as a widget on your macOS desktop:
+> 1. Right-click anywhere on your desktop.
+> 2. Click "Edit Widgets".
+> 3. In the widget gallery, search for "Shortcuts" in the search bar or scroll down to find it in the list.
+> 4. Find the Shortcuts widget and drag it onto your desktop (the small size works best for a single shortcut).
+> 5. Once placed on the desktop, right-click the widget and choose "Edit "Shortcuts"".
+> 6. Select "Collapse All Folders in Notes" from the list.
+> 7. Click "Done".
+> 
+> You can now run the shortcut directly from your desktop by clicking the widget.
 
 ## Shortcut Configuration
 
