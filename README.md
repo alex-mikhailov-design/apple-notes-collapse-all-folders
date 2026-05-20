@@ -6,7 +6,8 @@ macOS Tahoe has a bug where Apple Notes expands every folder and subfolder in th
 - [Notes App Folders Always Expanded on macOS Tahoe 26.0.1](https://discussions.apple.com/thread/256165172)
 - [macOS 26: On launch, Apple Notes opens every single folder](https://discussions.apple.com/thread/256154409)
 
-I have not been able to find a ready-to-use solution. So I made this Apple Shortcut, that collapses all folders back in one click. Shortcut works both with iCloud notes and On My Mac notes.
+I have not been able to find a ready-to-use solution. So I made this Apple Shortcut, that collapses all folders back in one click. 
+This shortcut works both with iCloud notes and On My Mac notes.
 
 ## Preview
 Placeholder.
