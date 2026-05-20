@@ -31,7 +31,7 @@ The algorithm is simple:
 1. Before running, go to **"System Settings > Privacy & Security > Accessibility"** and enable **"Shortcuts"**. The script simulates keyboard input, so macOS requires this permissions.
 2. The Notes app must be running, and the sidebar must be visible when you run the Shortcut. If it's hidden, toggle it with **"Option ⌥ + Command ⌘ + S"** keyboard shortcut or through the menu **"View > Show Folders"**.
 
-![Settings](images/settings.png)
+<img src="images/settings.png" width="70%" alt="Accessibility Settings">
 
 ## How to Install
 
@@ -69,7 +69,7 @@ The **first number** in the Text block is a total number of non-collapsible fold
 
 The **second number** in the Text block is a total number of folders you want to collapse (10 by default). Smart folders and folders with no sub-folders still count towards the total number.
 
-![Shortcut Configuration](images/shortcut.png)
+<img src="images/shortcut.png" width="70%" alt="Shortcut Configuration">
 
 ## AppleScript
 ```applescript
