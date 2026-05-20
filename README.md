@@ -11,7 +11,7 @@ I have not been able to find a ready-to-use solution. So I made this Apple Short
 > **Note:** This shortcut only works on macOS. It relies on AppleScript and System Events, which are not available on iOS or iPadOS.
 
 ## Preview
-Placeholder
+<img src="demo/demo.gif" width="100%" alt="Demo">
 
 ## How It Works
 The AppleScript in the shortcut uses System Events to simulate **Option ⌥ + Left Arrow ◀** keyboard shortcut in the Apple Notes sidebar to collapse folder and all its subfolders and other keyboard shortcuts for navigation within the folders list.
