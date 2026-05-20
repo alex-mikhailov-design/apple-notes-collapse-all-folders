@@ -11,7 +11,7 @@ I have not been able to find a ready-to-use solution. So I made this Apple Short
 > **Note:** This shortcut only works on macOS. It relies on AppleScript and System Events, which are not available on iOS or iPadOS.
 
 ## Preview
-<img src="demo/demo.gif" width="100%" alt="Demo">
+<img src="assets/demo.gif" width="100%" alt="Demo Animation">
 
 ## How It Works
 The AppleScript in the shortcut uses System Events to simulate **Option ⌥ + Left Arrow ◀** keyboard shortcut in the Apple Notes sidebar to collapse folder and all its subfolders and other keyboard shortcuts for navigation within the folders list.
@@ -31,7 +31,7 @@ The algorithm is simple:
 1. Before running, go to **"System Settings > Privacy & Security > Accessibility"** and enable **"Shortcuts"**. The script simulates keyboard input, so macOS requires this permissions.
 2. The Notes app must be running, and the sidebar must be visible when you run the Shortcut. If it's hidden, toggle it with **"Option ⌥ + Command ⌘ + S"** keyboard shortcut or through the menu **"View > Show Folders"**.
 
-<img src="images/settings.png" width="70%" alt="Accessibility Settings">
+<img src="assets/settings.png" width="70%" alt="Accessibility Settings">
 
 ## How to Install
 
@@ -69,7 +69,7 @@ The **first number** in the Text block is a total number of non-collapsible fold
 
 The **second number** in the Text block is a total number of folders you want to collapse (10 by default). Smart folders and folders with no sub-folders still count towards the total number.
 
-<img src="images/shortcut.png" width="70%" alt="Shortcut Configuration">
+<img src="assets/shortcut.png" width="70%" alt="Shortcut Configuration">
 
 ## AppleScript
 ```applescript
