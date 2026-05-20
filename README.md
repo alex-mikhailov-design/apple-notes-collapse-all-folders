@@ -1,7 +1,7 @@
 # Collapse All Folders in Apple Notes
 
 ## Intro
-macOS Tahoe has a bug where Apple Notes expands every folder and subfolder in the sidebar on every launch. Apple hasn't fixed it as of macOS 26.5 (May 2026). This Apple Shortcut collapses them all back in one click.
+macOS Tahoe has a bug where Apple Notes expands every folder and subfolder in the sidebar on every launch. Apple hasn't fixed it as of macOS 26.5 (May 2026). I have not been able to find a ready-to-use solution. So I made this Apple Shortcut, that collapses all folders back in one click.
 
 Some of the Apple Community threads confirming the bug:
 - [Apple Notes expands all folders on launch](https://discussions.apple.com/thread/256216467)
@@ -104,7 +104,7 @@ end run
 ```
 
 ## License
-CC BY-NC 4.0
+MIT
 
 ## Disclaimer
 This script is provided as-is, without warranty of any kind. Use it at your own risk. The sidebar UI element path was tested on macOS Tahoe 26.5 and may break if Apple changes the Notes app structure in a future update.
